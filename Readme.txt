@@ -1,11 +1,11 @@
-Software for performing and analyzing Climate-Crop Scenarios simulations (using multi-model climate ensemble and mixed agro-management practices)
+Software to run and analyze projected Crop changes under Climate Scenarios and the impact of Management practices
 
-- pack for interfacing climate-crop models (PreProc_Clim_to_Crop)
-- pack for running multi-model climate-crop scenarios under cross-parameter agro-management setup (Setup_Crop-Scenarios)
-- pack for analysis of climate-crop scenarios, (AnalysisTools_Crop-Scenarios) for:
-    - Phenology change metrics under climate scenarios
-    - Fertilization efficiency metrics under climate scenarios
-    - Total nutrients balance metrics under climate scenarios 
-    - Management practices evaluation metrics under climate scenarios (best practice)
-    - Climate drivers of Harvest metrics under climate scenarios
+- PreProc_Clim_to_Crop: interfacing for coupling climate-crop models
+- Setup_Crop-Scenarios): set-up mixed climate-management crop scenarios 
+- AnalysisTool_Crop-Scenarios, metrics for:
+    - Phenology change under climate scenarios & management practice
+    - Fertilization efficiency under climate scenarios & management practice
+    - Total nutrients balance under climate scenarios and response to management practices
+    - Optimal Management practices evaluation metrics under climate scenarios
+    - Seasonal shifts in Climate drivers for Harvest under climate scenarios
    
