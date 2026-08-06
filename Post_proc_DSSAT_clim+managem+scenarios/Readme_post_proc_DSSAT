@@ -1,9 +1,0 @@
-This Pack is computing diagnostics from DSSAT Climate and manegemnet Scenarios simulations
-- climate-crop scenarios diagnostics
-    - climate drivers correlations to Harvest for any management scenario (any planting date, fertilization level, eagion, climate scenario)
-    - differences in correlations for two climate scenarios / two management scenarios (sowing)/ two managemet scenarios (fertilization)
-
-- climate- crop - management - scenarios diagnostics: as a function of the the climate and management  
-    - compute EFI (efficiency of fertilization 
-     - compute CDI
-    - compute CDE
