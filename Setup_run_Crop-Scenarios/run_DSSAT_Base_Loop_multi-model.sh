@@ -88,7 +88,6 @@ mkdir -p ${dout}
 \rm fin_tmp* ${fax}
 
 
-#for plday in '091' '101' '120' '135' ; do
 plday1='091'
 plday2='101'
 plday3='120'
