@@ -4,11 +4,11 @@ d00=mydir0
 daux=myaux
 gr2='/home/utils/grads-2.2.0/bin/grads'
 ####################################################
-
+# select Counties:
 list_counties='Arg Bra Buc Buz Cal Cta Dam Dol Gal Giu Gor Ial Ilf Meh Olt Pra Tel Tul Val Vra'
 for jud in ${list_jud} ; do
 
-# extreme indicators:
+# select extreme agro-climate indicators:
 for var in BEDD FD R10mm R20mm RR RR1 TR SDII ; do
 
 d0=${d00}/${var}/UAT/${jud}/Transform_nc_decade
