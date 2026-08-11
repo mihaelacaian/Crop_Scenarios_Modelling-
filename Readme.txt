@@ -1,11 +1,14 @@
 Software to run and analyze projected Crop changes under Climate Scenarios and the impact of Management practices
 
-- PreProc_Clim_to_Crop: interfacing for coupling climate-crop models
-- Setup_Crop-Scenarios): set-up mixed climate-management crop scenarios 
-- AnalysisTool_Crop-Scenarios, metrics for:
-    - Phenology change under climate scenarios & management practice
-    - Fertilization efficiency under climate scenarios & management practice
-    - Total nutrients balance under climate scenarios and response to management practices
-    - Optimal Management practices evaluation metrics under climate scenarios
-    - Seasonal shifts in Climate drivers for Harvest under climate scenarios
+- PreProc_Clim_to_Crop: interface for coupling climate-crop models
+- Setup_run_Crop-Scenarios: set-up and run multi-model mixed climate and management scenarios for crops
+- PstProc_Crop-Scenarios: process coupled-chain climate-crop multi-model multi-scenarios simulations for analysis
+- Tool_analyse_Crop-Scenarios, metrics developed to analyse:
+    - Phenology changes under under climate scenarios & management practice 
+        (e.g. correlations, trends differences per key intervals for the crop type / region:  dekade, month)
+    - Lagged-links between extreme Harvest (low/ high) and Extreme climate in scenarios ("Extremes")
+    - Fertilization efficiency under climate scenarios & management practice ( "Metrics_for_impact")
+    - Total nutrients balance under climate scenarios and response to management practices  ( "Metrics_for_impact")
+    - Optimal Management paths identification along multi-model simulations under climate scenarios  ( "Metrics_for_impact")
+    - Seasonal shifts in Climate drivers for Harvest under climate scenarios  ( "Seasonal_shifts")
    
