@@ -1,5 +1,5 @@
 #!/bin/sh
-d0=/run/media/mcaian/Elements/PREPCLIM/Date/Output_per_UAT_extreme_agroclim_ind
+d0=myd0/Date/Output_per_UAT_extreme_agroclim_ind
 #############################
 jud=Cal
 ind=103032
